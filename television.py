@@ -25,7 +25,7 @@ class Television:
 
     def mute(self) -> None:
         """
-        turns the volume to zero
+        stores the current volume in a variable and turns the volume to zero
         """
         if self.__status:
             if self.__muted == False:
